@@ -215,15 +215,15 @@ package main
 
 import (
   "log"
-  
-  "github.com/FGRibreau/mailchecker/platform/go"
+
+  mail_checker "github.com/FGRibreau/mailchecker/v6/platform/go"
 )
 
-if !mail_checker.IsValid('myemail@yopmail.com') {
-  log.Fatal('O RLY !');
+if !mail_checker.IsValid("myemail@yopmail.com") {
+  log.Fatal("O RLY !");
 }
 
-if !mail_checker.IsValid('myemail.com') {
+if !mail_checker.IsValid("myemail.com") {
   log.Fatal("O RLY !")
 }
 ```
@@ -235,7 +235,7 @@ if !mail_checker.IsValid('myemail.com') {
 
 Go
 ```bash
-go get https://github.com/FGRibreau/mailchecker
+go get github.com/FGRibreau/mailchecker/v6/platform/go
 ```
 
 NodeJS/JavaScript
@@ -322,7 +322,7 @@ No sponsors yet! Will you be the first?
 These amazing people have contributed code to this project:
 
 <ul><li><a href="http://www.owenstephens.co.uk">Owen Stephens</a></li>
-<li><a href="http://jacobburenstam.com">Jacob Burenstam</a></li>
+<li><a href="http://jacobburenstam.com">Jacob Burenstam Linder</a></li>
 <li><a href="http://hermanslatman.nl">Herman Slatman</a></li>
 <li><a href="https://github.com/trisix">trisix</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=trisix" title="View the GitHub contributions of trisix on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://greenkeeper.io/">Greenkeeper</a></li>
@@ -343,7 +343,7 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/quaswex">quaswex</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=quaswex" title="View the GitHub contributions of quaswex on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/sxyuan">sxyuan</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sxyuan" title="View the GitHub contributions of sxyuan on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a></li>
-<li><a href="http://dusty.wtf">Dustin Clark</a></li>
+<li><a href="http://dusty.wtf">Dusty</a></li>
 <li><a href="http://synpro.io">larsvegas</a></li>
 <li><a href="zeeshanmuhammad.com">Zeeshan Muhammad</a></li>
 <li><a href="https://github.com/kkleejoe">kkleejoe</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kkleejoe" title="View the GitHub contributions of kkleejoe on repository FGRibreau/mailchecker">view contributions</a></li>
@@ -358,7 +358,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://cashlink.io">Jonas Haag</a></li>
 <li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a></li>
 <li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://xthiago.com/">Thiago Rodrigues</a></li>
+<li><a href="xthiago) (http://xthiago.com/">Thiago Rodrigues</a></li>
 <li><a href="http://www.dillilabs.com">Dilli Labs LLC</a></li>
 <li><a href="http://spokephone.com">Kieron Lawson</a></li>
 <li><a href="http://kslr.org">Kslr</a></li>
